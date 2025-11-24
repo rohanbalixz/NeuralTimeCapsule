@@ -681,8 +681,6 @@ If you find this project helpful, please consider giving it a star!
 
 ### 🚀 Built with passion for urban science and deep learning
 
-**Made with ❤️ by [Rohan Bali](https://github.com/rohanbalixz)**
-
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=rohanbalixz%2FNeuralTimeCapsule&label=Visitors&countColor=%23263759)](https://visitorbadge.io/status?path=rohanbalixz%2FNeuralTimeCapsule)
 
 </div>
