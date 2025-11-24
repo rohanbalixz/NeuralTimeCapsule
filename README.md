@@ -1094,7 +1094,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, collaborations, or bug reports:
 
-- **Issues**: https://github.com/yourusername/NeuralTimeCapsule/issues
+- **Issues**: https://github.com/rohanbalixz/NeuralTimeCapsule/issues
 - **Email**: rohanbaliwork@gmail.com
 - **Research Group**: University of Massachusetts Dartmouth
 
