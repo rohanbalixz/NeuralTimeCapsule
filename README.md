@@ -44,7 +44,6 @@
 
 ### 🔬 **Research Ready**
 - Complete **Jupyter notebook** pipeline
-- Publication-quality **LaTeX paper**
 - Pretrained weights & reproducible code
 
 </td>
@@ -372,33 +371,6 @@ Training Pipeline:
     ├── Train: 1,850 tiles (80%)
     └── Val: 463 tiles (20%)
 ```
-
----
-
-## 🎓 Research Paper
-
-<div align="center">
-
-### **"Neural Time Capsule: Forecasting Urban Development Through Multi-Decadal Spatio-Temporal ConvLSTM"**
-
-[![Paper](https://img.shields.io/badge/Read_Paper-PDF-red?style=for-the-badge)](https://github.com/rohanbalixz/NeuralTimeCapsule/blob/main/paper/Bali2025_NeuralTimeCapsule_UrbanGrowthPrediction.pdf)
-[![arXiv](https://img.shields.io/badge/arXiv-Coming_Soon-orange?style=for-the-badge)](https://arxiv.org/)
-
-</div>
-
-**Conference Target**: CVPR 2026 (85% acceptance probability)  
-**Format**: IEEE conference paper (8 pages)  
-**Figures**: 6 publication-quality images (300 DPI)  
-**Status**: Ready for submission
-
-### Paper Highlights
-
-- ✅ **<8% plagiarism risk** (natural rewrites throughout)
-- ✅ **<10% AI detection** (researcher voice, cautious language)
-- ✅ **Comprehensive baselines** (U-Net, CNN, Linear extrapolation)
-- ✅ **Ablation studies** (Multi-modal fusion, architectural depth)
-- ✅ **Reproducibility statement** (Code + weights + data sources)
-- ✅ **Honest limitations** (Builds reviewer trust)
 
 ---
 
