@@ -408,16 +408,6 @@ Code style guidelines
 Testing requirements
 
 </td>
-<td align="center" width="25%">
-
-### 📗 Submission Ready
-[![Read](https://img.shields.io/badge/Read-Checklist-red?style=flat-square)](docs/SUBMISSION_READY.md)
-
-Paper submission guide  
-Conference recommendations  
-Reviewer prep
-
-</td>
 </tr>
 </table>
 
