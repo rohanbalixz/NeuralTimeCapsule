@@ -1,35 +1,35 @@
 <div align="center">
 
-# 🏙️ Neural Time Capsule
+# Neural Time Capsule
 
 ### *Forecasting Urban Development Through Multi-Decadal Spatio-Temporal Deep Learning*
 
-[![Paper](https://img.shields.io/badge/📄_Paper-Read_Now-success?style=for-the-badge)](https://github.com/rohanbalixz/NeuralTimeCapsule/blob/main/paper/Bali2025_NeuralTimeCapsule_UrbanGrowthPrediction.pdf)
-[![arXiv](https://img.shields.io/badge/📚_arXiv-Coming_Soon-red?style=for-the-badge)](https://arxiv.org/)
-[![License: MIT](https://img.shields.io/badge/⚖️_License-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/🐍_Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
-[![PyTorch](https://img.shields.io/badge/🔥_PyTorch-1.10+-ee4c2c?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Paper](https://img.shields.io/badge/Paper-Read_Now-success?style=for-the-badge)](https://github.com/rohanbalixz/NeuralTimeCapsule/blob/main/paper/Bali2025_NeuralTimeCapsule_UrbanGrowthPrediction.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-Coming_Soon-red?style=for-the-badge)](https://arxiv.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-ee4c2c?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 
 **ConvLSTM-based urban growth prediction achieving 0.000218 MSE and 67% improvement over U-Net**
 
-[🚀 Quick Start](#-quick-start) • [📊 Results](#-results--visualizations) • [📖 Documentation](#-documentation) • [🎓 Citation](#-citation)
+[Quick Start](#-quick-start) • [Results](#-results--visualizations) • [Documentation](#-documentation) • [Citation](#-citation)
 
 ---
 
 </div>
 
-## 🌟 Highlights
+## Highlights
 
 <table>
 <tr>
 <td width="50%">
 
-### 🎯 **State-of-the-Art Performance**
+### **State-of-the-Art Performance**
 - **67% improvement** over U-Net baseline
 - **93% error reduction** with dual-channel architecture
 - MSE: **0.000218** | MAE: **0.0165** | RMSE: **0.0303**
 
-### 🚀 **Computational Efficiency**
+### **Computational Efficiency**
 - **6 hours** training on laptop CPU
 - **470K parameters** (lightweight architecture)
 - No GPU required for training or inference
@@ -37,12 +37,12 @@
 </td>
 <td width="50%">
 
-### 🌍 **Continental Scale**
+### **Continental Scale**
 - **2,313 tiles** across diverse U.S. regions
 - **25-year** historical training (1975→2000)
 - **Multi-decadal** forecasting capability
 
-### 🔬 **Research Ready**
+### **Research Ready**
 - Complete **Jupyter notebook** pipeline
 - Pretrained weights & reproducible code
 
@@ -52,7 +52,7 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 <div align="center">
 
@@ -62,7 +62,7 @@
 
 </div>
 
-### 🔧 Technical Specifications
+### Technical Specifications
 
 ```python
 Model Configuration:
@@ -75,9 +75,9 @@ Model Configuration:
 
 ---
 
-## 📊 Results & Visualizations
+## Results & Visualizations
 
-### 🎯 Performance Metrics
+### Performance Metrics
 
 <div align="center">
 
@@ -92,20 +92,20 @@ Model Configuration:
 | **RMSE** | 0.0303 | ~3% typical deviation |
 | **Train/Val Gap** | 2.3% | Minimal overfitting |
 
-### 🏆 Baseline Comparisons
+### Baseline Comparisons
 
 | Model | MSE | Improvement vs Ours |
 |-------|-----|---------------------|
-| **ConvLSTM (Ours)** | **0.00022** | **Baseline** ✅ |
+| **ConvLSTM (Ours)** | **0.00022** | **Baseline** |
 | U-Net | 0.00066 | **67% worse** |
 | Standalone CNN | 0.00074 | **239% worse** |
 | Linear Extrapolation | 0.0021 | **863% worse** |
 
 ---
 
-## 🎨 Prediction Examples
+## Prediction Examples
 
-### 📈 Temporal Evolution (1975 → 1990 → 2000)
+### Temporal Evolution (1975 → 1990 → 2000)
 
 <div align="center">
 
@@ -115,7 +115,7 @@ Model Configuration:
 
 </div>
 
-### 🔮 Future Forecasts (2010 → 2020 → 2033)
+### Future Forecasts (2010 → 2020 → 2033)
 
 <div align="center">
 
@@ -125,7 +125,7 @@ Model Configuration:
 
 </div>
 
-### 🗺️ Continental-Scale Predictions
+### Continental-Scale Predictions
 
 <div align="center">
 
@@ -135,7 +135,7 @@ Model Configuration:
 
 </div>
 
-### 🔍 Detailed Comparison
+### Detailed Comparison
 
 <div align="center">
 
@@ -147,9 +147,9 @@ Model Configuration:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
-### ⚡ Installation (5 minutes)
+### Installation (5 minutes)
 
 ```bash
 # 1. Clone repository
@@ -167,7 +167,7 @@ pip install -r requirements.txt
 jupyter notebook notebooks/urban_growth_prediction.ipynb
 ```
 
-### 🎯 Using Pretrained Model
+### Using Pretrained Model
 
 ```python
 from src.models.convlstm import create_model
@@ -185,7 +185,7 @@ forecasts = autoregressive_forecast(model, initial_sequence, num_steps=5)
 print(f"Generated {len(forecasts)} future predictions!")
 ```
 
-### 🏋️ Training from Scratch
+### Training from Scratch
 
 ```python
 from src.models.convlstm import create_model
@@ -209,13 +209,13 @@ trainer.train(train_loader, val_loader, num_epochs=50)
 
 ---
 
-## 📦 What's Included
+## What's Included
 
 <table>
 <tr>
 <td width="50%">
 
-### 📓 **Main Notebook**
+### **Main Notebook**
 ```
 notebooks/
 └── urban_growth_prediction.ipynb
@@ -225,7 +225,7 @@ notebooks/
 - Model evaluation & visualization
 - 74 cells, fully documented
 
-### 🧠 **Pretrained Model**
+### **Pretrained Model**
 ```
 models/
 └── best_urban_growth_model.pth
@@ -237,7 +237,7 @@ models/
 </td>
 <td width="50%">
 
-### 💻 **Source Code**
+### **Source Code**
 ```
 src/
 ├── models/convlstm.py
@@ -251,7 +251,7 @@ src/
 - Type hints & docstrings
 - Unit tested
 
-### 📄 **Research Paper**
+### **Research Paper**
 ```
 paper/
 ├── main.tex (530 lines)
@@ -259,7 +259,6 @@ paper/
 ```
 - IEEE conference format
 - Publication-quality figures
-- Ready for submission
 
 </td>
 </tr>
@@ -267,13 +266,13 @@ paper/
 
 ---
 
-## 🔬 Ablation Studies
+## Ablation Studies
 
 ### Multi-Modal Fusion Analysis
 
 | Configuration | MSE | MAE | Error vs Dual-Channel |
 |--------------|-----|-----|----------------------|
-| **Dual-channel (Built-up + Roads)** | **0.00022** | **0.0165** | **Baseline** ✅ |
+| **Dual-channel (Built-up + Roads)** | **0.00022** | **0.0165** | **Baseline** |
 | Single-channel (Built-up only) | 0.0028 | 0.0421 | **+1173% worse** |
 | Single-channel (Roads only) | 0.0156 | 0.0987 | **+6991% worse** |
 
@@ -284,16 +283,16 @@ paper/
 | Model Depth | MSE | Parameters | Training Time |
 |-------------|-----|------------|---------------|
 | 1-layer ConvLSTM | 0.0035 | 235K | 3 hours |
-| **2-layer ConvLSTM** | **0.00022** | **470K** | **6 hours** ✅ |
+| **2-layer ConvLSTM** | **0.00022** | **470K** | **6 hours** |
 | 3-layer ConvLSTM | 0.00025 | 705K | 12 hours |
 
 **Key Finding**: 2 layers provide optimal performance/efficiency trade-off.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
-### 🛰️ GHSL Built-Up Surface (R2023A)
+### GHSL Built-Up Surface (R2023A)
 
 <table>
 <tr>
@@ -319,15 +318,15 @@ data/ghsl/
 ```
 
 **Coverage**:
-- 🌍 Continental US
-- 📐 12,717 × 23,996 pixels
-- 💾 ~8 GB total
+- Continental US
+- 12,717 × 23,996 pixels
+- ~8 GB total
 
 </td>
 </tr>
 </table>
 
-### 🛣️ OpenStreetMap Road Networks
+### OpenStreetMap Road Networks
 
 <table>
 <tr>
@@ -350,16 +349,16 @@ data/
 ```
 
 **Statistics**:
-- 🚗 Major highways
-- 🛤️ Primary roads
-- 📍 Rasterized to match GHSL
-- 💾 ~250 MB
+- Major highways
+- Primary roads
+- Rasterized to match GHSL
+- ~250 MB
 
 </td>
 </tr>
 </table>
 
-### 📦 Tile Dataset
+### Tile Dataset
 
 ```
 Training Pipeline:
@@ -374,13 +373,13 @@ Training Pipeline:
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 <table>
 <tr>
 <td align="center" width="25%">
 
-### 📘 Installation Guide
+### Installation Guide
 [![Read](https://img.shields.io/badge/Read-Guide-blue?style=flat-square)](docs/INSTALLATION.md)
 
 Step-by-step setup  
@@ -390,7 +389,7 @@ System requirements
 </td>
 <td align="center" width="25%">
 
-### 📙 Model Card
+### Model Card
 [![Read](https://img.shields.io/badge/Read-Card-green?style=flat-square)](docs/MODEL_CARD.md)
 
 Model specifications  
@@ -400,7 +399,7 @@ Ethical considerations
 </td>
 <td align="center" width="25%">
 
-### 📕 Contributing
+### Contributing
 [![Read](https://img.shields.io/badge/Read-Guide-orange?style=flat-square)](docs/CONTRIBUTING.md)
 
 Development workflow  
@@ -413,18 +412,18 @@ Testing requirements
 
 ---
 
-## 🛠️ Repository Structure
+## Repository Structure
 
 ```
 NeuralTimeCapsule/
 │
-├── 📓 notebooks/
+├── notebooks/
 │   └── urban_growth_prediction.ipynb    # Main training pipeline
 │
-├── 🧠 models/
+├── models/
 │   └── best_urban_growth_model.pth       # Pretrained weights (470K params)
 │
-├── 💻 src/                                # Production source code
+├── src/                                # Production source code
 │   ├── models/convlstm.py                # Architecture implementation
 │   ├── data/preprocessing.py             # GHSL + OSM pipeline
 │   └── utils/
@@ -432,27 +431,27 @@ NeuralTimeCapsule/
 │       ├── inference.py                  # Forecasting utilities
 │       └── metrics.py                    # Performance tracking
 │
-├── 📄 paper/                              # LaTeX paper + figures
+├── paper/                              # LaTeX paper + figures
 │   ├── main.tex                          # IEEE format (530 lines)
 │   └── figures/                          # 6 publication images (300 DPI)
 │
-├── 📚 docs/                               # Comprehensive documentation
+├── docs/                               # Comprehensive documentation
 │   ├── INSTALLATION.md
 │   ├── MODEL_CARD.md
 │   ├── CONTRIBUTING.md
 │   └── SUBMISSION_READY.md
 │
-├── 🧪 tests/                              # Unit tests
+├── tests/                              # Unit tests
 │   └── test_model.py
 │
-├── 🛠️ scripts/                            # Utility scripts
+├── scripts/                            # Utility scripts
 │   ├── preprocess_data.sh
 │   └── verify_structure.py
 │
-├── 📊 results/                            # Outputs
+├── results/                            # Outputs
 │   └── metrics/model_performance.json
 │
-└── 📋 Root files
+└── Root files
     ├── README.md                         # This file
     ├── requirements.txt                  # Python dependencies
     ├── LICENSE                           # MIT License
@@ -461,7 +460,7 @@ NeuralTimeCapsule/
 
 ---
 
-## 🚧 Limitations & Future Work
+## Limitations & Future Work
 
 ### Current Limitations
 
@@ -474,16 +473,16 @@ NeuralTimeCapsule/
 
 ### Planned Enhancements
 
-- 🔄 **6-epoch training** with 2014-2023 GHSL data
-- 🌡️ **Climate data integration** (temperature, precipitation)
-- 👥 **Demographics fusion** (population, income)
-- 🎯 **Attention mechanisms** for interpretability
-- 📊 **Uncertainty quantification** (ensemble methods, MC dropout)
-- 🌍 **Transfer learning** experiments for international regions
+- **6-epoch training** with 2014-2023 GHSL data
+- **Climate data integration** (temperature, precipitation)
+- **Demographics fusion** (population, income)
+- **Attention mechanisms** for interpretability
+- **Uncertainty quantification** (ensemble methods, MC dropout)
+- **Transfer learning** experiments for international regions
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](docs/CONTRIBUTING.md) for details.
 
@@ -491,7 +490,7 @@ We welcome contributions! Please see our [Contributing Guide](docs/CONTRIBUTING.
 <tr>
 <td align="center" width="33%">
 
-### 🐛 Report Bugs
+### Report Bugs
 [Open an issue](https://github.com/rohanbalixz/NeuralTimeCapsule/issues/new?template=bug_report.md)
 
 Found a bug? Let us know!
@@ -499,7 +498,7 @@ Found a bug? Let us know!
 </td>
 <td align="center" width="33%">
 
-### ✨ Request Features
+### Request Features
 [Suggest a feature](https://github.com/rohanbalixz/NeuralTimeCapsule/issues/new?template=feature_request.md)
 
 Have an idea? Share it!
@@ -507,7 +506,7 @@ Have an idea? Share it!
 </td>
 <td align="center" width="33%">
 
-### 🔧 Submit PRs
+### Submit PRs
 [Create a pull request](https://github.com/rohanbalixz/NeuralTimeCapsule/compare)
 
 Code improvements welcome!
@@ -534,7 +533,7 @@ git push origin feature/amazing-feature
 
 ---
 
-## 🎓 Citation
+## Citation
 
 If you use this work in your research, please cite:
 
@@ -555,7 +554,7 @@ Download citation: [`CITATION.bib`](CITATION.bib)
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
@@ -568,13 +567,13 @@ MIT License - Free for academic and commercial use
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 <table>
 <tr>
 <td width="33%" align="center">
 
-### 🛰️ Data Providers
+### Data Providers
 
 **GHSL Team (JRC)**  
 High-quality global  
@@ -583,7 +582,7 @@ settlement data
 </td>
 <td width="33%" align="center">
 
-### 🗺️ OpenStreetMap
+### OpenStreetMap
 
 **OSM Contributors**  
 Crowdsourced  
@@ -592,7 +591,7 @@ infrastructure data
 </td>
 <td width="33%" align="center">
 
-### 🔥 PyTorch Team
+### PyTorch Team
 
 **Meta AI**  
 Deep learning  
@@ -610,11 +609,11 @@ framework
 
 ---
 
-## 📞 Contact & Support
+## Contact & Support
 
 <div align="center">
 
-### 👤 **Rohan Bali**
+### **Rohan Bali**
 
 [![GitHub](https://img.shields.io/badge/GitHub-@rohanbalixz-181717?style=for-the-badge&logo=github)](https://github.com/rohanbalixz)
 [![Twitter](https://img.shields.io/badge/Twitter-@bali2ro-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/bali2ro)
@@ -625,9 +624,9 @@ framework
 
 ### Getting Help
 
-- 💬 **Questions?** Open a [Discussion](https://github.com/rohanbalixz/NeuralTimeCapsule/discussions)
-- 🐛 **Issues?** Report a [Bug](https://github.com/rohanbalixz/NeuralTimeCapsule/issues)
-- 📧 **Private inquiry?** Email the maintainer
+- **Questions?** Open a [Discussion](https://github.com/rohanbalixz/NeuralTimeCapsule/discussions)
+- **Issues?** Report a [Bug](https://github.com/rohanbalixz/NeuralTimeCapsule/issues)
+- **Private inquiry?** Email the maintainer
 
 ---
 
@@ -641,7 +640,7 @@ If you find this project helpful, please consider giving it a star!
 
 ---
 
-### 🚀 Built with passion for urban science and deep learning
+### Built with passion for urban science and deep learning
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=rohanbalixz%2FNeuralTimeCapsule&label=Visitors&countColor=%23263759)](https://visitorbadge.io/status?path=rohanbalixz%2FNeuralTimeCapsule)
 
