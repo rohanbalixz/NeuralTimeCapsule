@@ -18,6 +18,8 @@
 
 </div>
 
+> **Note (November 2026).** This is an earlier, exploratory project. Its comparisons rank models by MSE, which my later channel-count audit shows is misleading for sparse urban growth: when most pixels never change, MSE favours a model that predicts no change at all. Under the Figure of Merit, with input channels matched across horizons, a plain CNN leads the ConvLSTM at every horizon tested. For the current benchmark, code and trained weights, see [Multi-Horizon-Urban-Growth-Prediction](https://github.com/rohanbalixz/Multi-Horizon-Urban-Growth-Prediction) and the [GeoAI 2026 paper](https://zenodo.org/records/20278403).
+
 ## Highlights
 
 <table>
